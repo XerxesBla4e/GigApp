@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jActivities.jApplyActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Job Application"
+        android:textColor="@color/greyish"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/topnav">
+
+        <ImageView
+            android:id="@+id/bk3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="14dp"
+            android:src="@drawable/back" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/jobtitle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:drawablePadding="3dp"
+            android:hint="Job Title" />
+
+        <EditText
+            android:id="@+id/editpay"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/jobtitle"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:drawablePadding="3dp"
+            android:hint="Monthly Payment" />
+
+        <EditText
+            android:id="@+id/editskills"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editeduc"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:visibility="gone"
+            android:background="@drawable/edit_text_style"
+            android:drawablePadding="3dp"
+            android:hint="Special Skill/Trait"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editexperience"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editpay"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:drawablePadding="3dp"
+            android:hint="Experience" />
+
+        <EditText
+            android:id="@+id/editjobtype"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editexperience"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:visibility="gone"
+            android:background="@drawable/edit_text_style"
+            android:drawablePadding="3dp"
+            android:hint="Job Type"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editeduc"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editjobtype"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:drawablePadding="3dp"
+            android:hint="Level of Education" />
+
+        <EditText
+            android:id="@+id/editage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editskills"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:drawablePadding="3dp"
+            android:hint="Age"
+            android:lines="2" />
+
+        <EditText
+            android:id="@+id/editprev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editage"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:drawablePadding="3dp"
+            android:hint="Previous Experience(years)"
+            android:lines="2" />
+
+        <Button
+            android:id="@+id/btnapply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editprev"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_style"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Apply"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtLicence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="Developed By XerxesCodes54"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+</RelativeLayout>

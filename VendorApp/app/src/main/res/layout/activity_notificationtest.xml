@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".Admin.notifications">
+
+    <EditText
+        android:id="@+id/edttitle"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/edit_text_style"
+        android:hint="Enter Title"
+        android:textColorHint="@color/greyish" />
+
+    <EditText
+        android:id="@+id/edtmessage"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/edit_text_style"
+        android:hint="Enter Message"
+        android:textColorHint="@color/greyish" />
+
+    <EditText
+        android:id="@+id/edttoken"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/edit_text_style"
+        android:hint="Enter Device Token"
+        android:textColorHint="@color/greyish" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTxtPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_style"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Send To All"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/onedevice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTxtPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_style"
+            android:fontFamily="sans-serif-condensed"
+            android:text="One Device"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</LinearLayout>

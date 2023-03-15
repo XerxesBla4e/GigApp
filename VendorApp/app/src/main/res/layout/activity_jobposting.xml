@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jActivities.jobposting">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Job Posting"
+        android:textColor="@color/greyish"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/topnav">
+
+        <ImageView
+            android:id="@+id/bk3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="14dp"
+            android:src="@drawable/back" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/jobtitle1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:drawablePadding="3dp"
+            android:hint="Job Title" />
+
+        <EditText
+            android:id="@+id/department1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/jobtitle1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:drawablePadding="3dp"
+            android:hint="Candidate Role" />
+
+
+        <EditText
+            android:id="@+id/editpay1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/department1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:drawablePadding="3dp"
+            android:hint="Monthly Payment" />
+
+        <EditText
+            android:id="@+id/editskills1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editeduc1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:drawablePadding="3dp"
+            android:hint="Special Skill/Trait(optional)"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editexperience1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editpay1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:drawablePadding="3dp"
+            android:hint="Experience" />
+
+        <EditText
+            android:id="@+id/editjobtype1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editexperience1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:drawablePadding="3dp"
+            android:hint="Job Level(Optional)"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editeduc1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editjobtype1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:drawablePadding="3dp"
+            android:hint="Duty Station" />
+
+        <EditText
+            android:id="@+id/editage1"
+            android:layout_width="353dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/editskills1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="190dp"
+            android:background="@drawable/edit_text_style"
+            android:drawablePadding="3dp"
+            android:hint="Deadline: dd/MM/yyyy"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/pickDate1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editskills1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/button_style"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Select Date"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnpost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pickDate1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_style"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Post"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtLicence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="Developed By XerxesCodes54"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/drawable-v24/button_style.xml" value="0.2203125" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/drawable/edit_text_style.xml" value="0.2203125" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/drawable/main_top_nav.xml" value="0.2203125" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/drawable/namesvg.xml" value="0.2203125" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/drawable/topnav.xml" value="0.2203125" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_add_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_approved_candidates.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_client_signup.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_edit_item.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_forgot_pass.xml" value="0.25" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_japply.xml" value="0.25" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_jobposting.xml" value="0.25" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_jseeker_details.xml" value="0.33" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_jseeker_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_main.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_main_admin.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_main_client1.xml" value="0.17" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_main_jobseeker.xml" value="0.33" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_main_vendor.xml" value="0.21" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_order_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_order_details2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_retrievejobs.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_update_profile.xml" value="0.25" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_vendor_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_view_applicants.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_view_job_postings.xml" value="0.33" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_view_products.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/activity_viewjobpost.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/adminrow.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/applicantrow.xml" value="0.25" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/approvedrow.xml" value="0.25" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/cartrecycler.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/fragment_home1.xml" value="0.16259057971014493" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/fragment_jobcreator.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/fragment_jobseeker.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/fragment_jskrhme.xml" value="0.25" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/fragment_product.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/item1recycler.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/itemdetails.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/itemrecycler.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/jobrow.xml" value="0.33" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/orderdetsrow.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/ordersrecycler.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/layout/shoprow.xml" value="0.25" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/menu/bottom_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/VendorApp/app/src/main/res/menu/bottommenu1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/drawable/bottomdesign.xml" value="0.1555" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/layout/activity_all_jobs.xml" value="0.1" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/layout/activity_chat.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/layout/activity_job_reminders.xml" value="0.1" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/layout/activity_jobposting.xml" value="0.25" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/layout/activity_jseeker_details.xml" value="0.22" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/layout/activity_login.xml" value="0.13677536231884058" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/layout/activity_main_admin.xml" value="0.25" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/layout/activity_my_details.xml" value="0.25" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/layout/activity_notificationtest.xml" value="0.2" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/layout/activity_view_job_postings.xml" value="0.12273550724637682" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/layout/activity_view_postings.xml" value="0.25" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/layout/adminrow.xml" value="0.2" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/layout/alljobrow.xml" value="0.22" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/layout/applicantrow.xml" value="0.2" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/layout/approvedrow.xml" value="0.2" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/layout/jobbrow.xml" value="0.25" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/layout/jobremrow.xml" value="0.15" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/layout/jobrow.xml" value="0.25" />
+        <entry key="..\:/Users/XerxesCodes/Desktop/VendorApp/app/src/main/res/menu/bottommenu1.xml" value="0.12135416666666667" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/drawable/background_toolb.xml" value="0.17395833333333333" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/drawable/bottomdesign.xml" value="0.19375" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/drawable/topnav.xml" value="0.17395833333333333" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/activity_all_jobs.xml" value="0.25" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/activity_chat.xml" value="0.15" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/activity_japply.xml" value="0.22" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/activity_job_reminders.xml" value="0.1734375" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/activity_jobposting.xml" value="0.25" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/activity_jseeker_details.xml" value="0.2420185375901133" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/activity_jseeker_register.xml" value="0.11141304347826086" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/activity_login.xml" value="0.15364583333333334" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/activity_main.xml" value="0.15364583333333334" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/activity_main_admin.xml" value="0.22" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/activity_main_jobseeker.xml" value="0.17" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/activity_pay.xml" value="0.21" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/activity_register.xml" value="0.1734375" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/activity_retrieve_data.xml" value="0.13405797101449277" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/activity_retrievejobs.xml" value="0.15364583333333334" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/activity_splashscreen1.xml" value="0.15364583333333334" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/activity_update_profile.xml" value="0.15" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/activity_view_applicants.xml" value="0.1734375" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/activity_view_job_postings.xml" value="0.25" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/adminrow.xml" value="0.1" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/alljobrow.xml" value="0.25" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/applicantrow.xml" value="0.17" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/approvedrow.xml" value="0.15364583333333334" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/fragment_jobcreator.xml" value="0.25" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/fragment_jobseeker.xml" value="0.21" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/jobremrow.xml" value="0.1734375" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/jobrow.xml" value="0.33" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/layout/jobspopup.xml" value="0.25" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/menu/bottom_menu.xml" value="0.21" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/menu/bottommenu1.xml" value="0.15" />
+        <entry key="..\:/myprojects/VendorApp/app/src/main/res/menu/search.xml" value="0.15364583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgotPass">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/topnav">
+
+        <ImageView
+            android:id="@+id/bk2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="14dp"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/cordinates"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="14dp"
+            android:src="@drawable/location" />
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/editrecov"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rel1"
+        android:layout_centerInParent="true"
+        android:textColorHint="@color/greyish"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/edit_text_style"
+        android:drawableStart="@drawable/email"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="3dp"
+        android:hint="Input Email Used For SignUp"
+        android:textSize="18sp"
+        android:textStyle="normal"></EditText>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editrecov"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_style"
+        android:fontFamily="sans-serif-condensed"
+        android:text="REQUEST"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"></Button>
+</RelativeLayout>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JSkrSignup">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/topnav">
+
+        <ImageView
+            android:id="@+id/bk1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="14dp"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/cordinates"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="14dp"
+            android:src="@drawable/location" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:id="@+id/lin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Click For Profile Image"
+                android:textColor="@color/greyish"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/profile"
+                android:layout_width="130dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:src="@drawable/account"
+                tools:ignore="MissingClass" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editemail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/lin"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:drawableStart="@drawable/emailsvg"
+            android:drawableLeft="@drawable/emailsvg"
+            android:drawablePadding="3dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editpassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editphone"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:drawableStart="@drawable/pass"
+            android:drawableLeft="@drawable/pass"
+            android:drawableEnd="@drawable/viewsvg"
+            android:drawableRight="@drawable/viewsvg"
+            android:drawablePadding="3dp"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editrepassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editpassword"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:drawableStart="@drawable/pass"
+            android:drawableLeft="@drawable/pass"
+            android:drawableEnd="@drawable/viewsvg"
+            android:drawableRight="@drawable/viewsvg"
+            android:drawablePadding="3dp"
+            android:hint="Re Enter Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editemail"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:drawableStart="@drawable/namesvg"
+            android:drawableLeft="@drawable/namesvg"
+            android:drawablePadding="3dp"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/editphone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editname"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:drawableStart="@drawable/phone"
+            android:drawableLeft="@drawable/namesvg"
+            android:drawablePadding="3dp"
+            android:hint="Phone Number"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editrepassword"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_text_style"
+            android:drawableStart="@drawable/addresssvg"
+            android:drawableLeft="@drawable/addresssvg"
+            android:drawablePadding="3dp"
+            android:hint="Click Top right corner for location"
+            android:lines="2" />
+
+        <Button
+            android:id="@+id/btnsgnup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editaddress"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_style"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/vndrsignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnsgnup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Admin? Signup from here"
+            android:textColor="@color/lightBlue"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtLicence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="Developed By XerxesCodes54"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+</RelativeLayout>

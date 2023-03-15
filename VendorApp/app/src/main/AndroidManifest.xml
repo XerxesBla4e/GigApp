@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.vendorapp">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VendorApp"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".jActivities.MyDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ViewPostings"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.notifications"
+            android:exported="false" />
+        <activity
+            android:name=".JobSeeker.JobReminders"
+            android:exported="true" />
+        <activity
+            android:name=".JobSeeker.AllJobs"
+            android:exported="true" />
+        <activity
+            android:name=".jActivities.PayActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.ApprovedCandidates"
+            android:exported="false" />
+        <activity
+            android:name=".JobSeeker.jSeekerDetails"
+            android:exported="false" />
+        <activity
+            android:name=".jActivities.ViewApplicants"
+            android:exported="false" />
+        <activity
+            android:name=".jActivities.jApplyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JobSeeker.ViewJobPostings"
+            android:exported="false" />
+        <activity
+            android:name=".jActivities.jobposting"
+            android:exported="false" />
+        <activity android:name=".UpdateProfile" />
+        <activity android:name=".ForgotPass" />
+        <activity android:name=".JobSeeker.JobSeeker" />
+        <activity android:name=".Admin.AdminActivity" />
+
+        <uses-library android:name="com.google.android.maps" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAdyfnX4Gze9qbaNQjpzy1gXznPXI2vsvE" />
+
+        <activity android:name=".Login" />
+        <activity android:name=".JSkrSignup" />
+        <activity android:name=".AdminSignup" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".Messaging.FirebaseMessagingService"
+            android:permission="TODO"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
